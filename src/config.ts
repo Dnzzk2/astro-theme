@@ -46,16 +46,6 @@ export const SOCIAL_LINKS: SocialLink[] = [
     url: 'https://github.com/yourname',
     icon: 'icon-[ri--github-fill]',
   },
-  {
-    name: 'twitter',
-    url: 'https://x.com/yourname',
-    icon: 'icon-[ri--twitter-x-fill]',
-  },
-  {
-    name: 'bilibili',
-    url: 'https://space.bilibili.com/yourSpaceId',
-    icon: 'icon-[ri--bilibili-fill]',
-  },
 ]
 
 /**
@@ -111,23 +101,4 @@ export const PROJECTS_CONFIG: ProjectConfig = {
 }
 
 // get icon https://icon-sets.iconify.design/
-export const ProjectList: Project[] = [
-  {
-    name: 'Litos',
-    description: 'A blog theme built with Astro.js and Dnzzk2.',
-    githubUrl: 'https://github.com/Dnzzk2/Litos',
-    website: 'https://litos.vercel.app/',
-    type: 'icon',
-    icon: 'icon-[ri--github-fill]',
-    star: 1,
-  },
-  {
-    name: 'Litos',
-    description: 'A blog theme built with Astro.js and Dnzzk2.',
-    githubUrl: 'https://github.com/Dnzzk2/Litos',
-    website: 'https://litos.vercel.app/',
-    type: 'image',
-    icon: '/projects/logo.png',
-    star: 1,
-  },
-]
+export const ProjectList: Project[] = []
