@@ -46,8 +46,6 @@ const ThemeToggle = () => {
     applyTheme(theme)
   }, [theme, mounted, controlsSun, controlsMoon, controlsSystem])
 
-  if (!mounted) return null
-
   const applyTheme = (newTheme: string) => {
     const root = document.documentElement
 
