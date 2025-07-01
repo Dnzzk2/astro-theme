@@ -24,7 +24,7 @@ const filteredHeadings = headings
 
 {
   hasHeadings && (
-    <div id="mobile-toc-container" class="lg:hidden sticky top-0 z-30">
+    <div id="mobile-toc-container" class="lg:hidden sticky top-0 z-30 relative">
       <details class="group">
         <summary class="flex w-full cursor-pointer items-center justify-between relative md:bg-transparent bg-background/95 backdrop-blur-sm border-b border-border/60 px-6 sm:px-8 py-3 select-none">
           <div class="flex gap-4 items-center min-w-0 flex-1">
@@ -38,7 +38,7 @@ const filteredHeadings = headings
           </div>
         </summary>
 
-        <div class="md:bg-transparent bg-background/98 backdrop-blur-sm border-b border-border/30 overflow-hidden" data-toc-content>
+        <div class="absolute top-full left-0 right-0 z-40 md:bg-transparent bg-background/98 backdrop-blur-sm border-b border-border/30 overflow-hidden" data-toc-content>
           <div class="relative">
             <div
               class="absolute top-0 left-0 right-0 h-8 bg-gradient-to-b from-background/98 to-transparent pointer-events-none z-10 opacity-0 transition-opacity duration-200"
